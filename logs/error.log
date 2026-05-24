@@ -1,0 +1,18 @@
+2026-05-23 22:57:23.430 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repo in com.krakdev.peliculas.services.ServicioPelicula required a bean of type 'com.krakdev.peliculas.repository.PeliculaRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.krakdev.peliculas.repository.PeliculaRepository' in your configuration.
+
